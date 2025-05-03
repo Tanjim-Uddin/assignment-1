@@ -1,4 +1,4 @@
-*body{
+*body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,31 +11,28 @@
 
 /*common styles*/
 .common-color1 {
-  color: #0E0E0E;
-
+  color: #0e0e0e;
 }
 
 .common-color2 {
   background-color: rgba(198, 228, 214, 1);
-
 }
 
 /*nav style*/
 .navigation {
+  width: 1280px;
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  margin: 0 350px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .btn {
-  background-color: #FFFFFF;
-  border: 2px solid #006A50;
+  background-color: #ffffff;
+  border: 2px solid #006a50;
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #006A50;
+  color: #006a50;
   width: 116px;
   height: 50px;
 }
@@ -48,7 +45,7 @@ nav h3 {
 .banner {
   width: 1280px;
   height: 560px;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   border-radius: 24px;
   margin: 0 auto;
   display: flex;
@@ -71,8 +68,9 @@ nav h3 {
   font-size: 16px;
   font-weight: 200px;
   padding: 17px 34px;
-  background-color: #006A50;
-  color: #FFFFFF;
+  background-color: #006a50;
+  color: #ffffff;
+  border: none;
   border-radius: 8px;
 }
 
@@ -87,23 +85,22 @@ nav h3 {
   margin: 0 auto;
 }
 
-.section2>h1 {
+.section2 > h1 {
   font-size: 40px;
   font-weight: 700px;
-
 }
 
 .section2-cards {
   display: flex;
   gap: 24px;
-
 }
 
 .section2-card {
   padding: 25px;
   border-radius: 16px;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.25);
-
+  overflow: hidden;
+  width: 25%;
 }
 
 /*section3 */
@@ -116,36 +113,36 @@ nav h3 {
 .section3-cards {
   display: flex;
   gap: 24px;
-
 }
 
 .section3-card1 {
   background-color: rgba(84, 144, 245, 0.2);
   padding: 33px 32px;
   border-radius: 16px;
+  width: 33.33%;
 }
 
 .section3-card2 {
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   padding: 33px 32px;
   border-radius: 16px;
+  width: 33.33%;
 }
 
 .section3-card3 {
-  background-color: #F7EBCF;
+  background-color: #f7ebcf;
   padding: 33px 32px;
   border-radius: 16px;
+  width: 33.33%;
 }
 
 .section3-card-title {
   font-size: 20px;
   font-weight: bold;
-
 }
 
 .section3-card-description {
   font-size: 16px;
-
 }
 
 .section3-card-btn1 {
@@ -153,7 +150,7 @@ nav h3 {
   margin-top: 50px;
   border: none;
   border-radius: 8px;
-  background-color: #5490F5;
+  background-color: #5490f5;
   color: white;
   font-size: 16px;
 }
@@ -163,7 +160,7 @@ nav h3 {
   margin-top: 35px;
   border: none;
   border-radius: 8px;
-  background-color: #09A15C;
+  background-color: #09a15c;
   color: white;
   font-size: 16px;
 }
@@ -173,7 +170,7 @@ nav h3 {
   margin-top: 50px;
   border: none;
   border-radius: 8px;
-  background-color: #FFC239;
+  background-color: #ffc239;
   color: white;
   font-size: 16px;
 }
@@ -186,18 +183,15 @@ nav h3 {
   width: 1240px;
   height: px;
   margin: 0 auto;
-
 }
 
 .section4-description {
   font-size: 16px;
-  background-image: url(assets/quote-bg.png);
+  padding: 15px 0 0 0;
   background-size: 40px 40px;
   background-repeat: no-repeat;
   background-position: top left;
   background-image: url(assets/quote-bg.png);
-
-
 }
 
 /*section5*/
@@ -212,46 +206,40 @@ nav h3 {
 .section5-title {
   font-size: 40px;
   font-weight: 700px;
-
 }
 
 .section5-description {
   font-size: 16px;
-
 }
 
 .section5-box {
   height: 405px;
   border-radius: 24px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-
 }
-.section5-parent{
+.section5-parent {
   padding: 56px 48px;
   display: flex;
   gap: 32px;
   justify-content: space-around;
-
 }
-.child1>img{
+.child1 > img {
   border-radius: 24px;
 }
-.child2-title{
+.child2-title {
   font-size: 32px;
   font-weight: 700px;
 }
-.chid2-description{
+.chid2-description {
   font-size: 16px;
 }
-.child2-btn{
+.child2-btn {
   padding: 13px 26px;
   color: white;
-  background-color:#006A50 ;
+  background-color: #006a50;
+  border: none;
   border-radius: 8px;
   margin-top: 25px;
-  
-
 }
 /*section5-box-reverse style*/
 .section5-box-reverse {
@@ -259,7 +247,7 @@ nav h3 {
   border-radius: 24px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.section5-parent-reverse{
+.section5-parent-reverse {
   padding: 56px 48px;
   display: flex;
   flex-direction: row-reverse;
@@ -267,27 +255,24 @@ nav h3 {
   justify-content: space-around;
 }
 /*section6 style*/
-.section6{
+.section6 {
   width: 1280px;
   text-align: center;
   margin: 0 auto;
-
 }
-.section6-title{
+.section6-title {
   font-size: 40px;
   font-weight: bold;
 }
-.section6-description{
+.section6-description {
   font-size: 16px;
 }
-.section6-btns{
+.section6-btns {
   display: flex;
-  gap:24px ;
+  gap: 24px;
   justify-content: space-around;
-
 }
-.section6-btns>button
-{
+.section6-btns > button {
   font-size: 40px;
   font-weight: bold;
   padding: 40px 60px;
@@ -295,14 +280,14 @@ nav h3 {
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.section6-btn2{
-  background-color: #C6E4D6;
+.section6-btn2 {
+  background-color: #c6e4d6;
 }
-.section6-btns>button:hover{
-  background-color:#006A50 ;
+.section6-btns > button:hover {
+  background-color: #006a50;
   color: white;
 }
-.section6-input{
+.section6-input {
   width: 100%;
   height: 64px;
   border-radius: 8px;
@@ -315,101 +300,94 @@ nav h3 {
   display: block;
 }
 
-.section6-bottom-btn{
+.section6-bottom-btn {
   color: white;
-  background-color: #006A50;
+  background-color: #006a50;
   padding: 17px 34px;
-  border-radius:8px ;
+  border: none;
+  border-radius: 8px;
   margin-top: 32px;
 }
 /*section7 style*/
-.section7{
+.section7 {
   width: 1280px;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   border-radius: 24px;
-  margin:35px auto;
+  margin: 35px auto;
   /* padding-bottom: 150px; */
 }
-.section7-content{
+.section7-content {
   padding: 50px 265px;
 }
-.section7-title{
+.section7-title {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   color: rgba(14, 14, 14, 1);
-
-}.section7-description{
+}
+.section7-description {
   font-size: 16px;
   font-weight: 700px;
   text-align: center;
   color: rgba(14, 14, 14, 0.7);
-
 }
-.subscribing-field{
+.subscribing-field {
   display: flex;
 
   margin: 24px auto;
- 
-
 }
-input.section7-input{
+input.section7-input {
   color: rgba(14, 14, 14, 0.3);
   font-size: 16px;
-  padding:18px 340px 18px 40px ;
-  border: 1px solid rgba(14, 14, 14, 0.3);
+  padding: 18px 340px 18px 40px;
+  border: none;
   border-radius: 8px 0px 0px 8px;
-
-} 
-::placeholder{
+}
+::placeholder {
   color: rgba(14, 14, 14, 0.3);
 }
-button.subscribe{
-  background-color: #006A50;
+button.subscribe {
+  background-color: #006a50;
   color: white;
   font-size: 16px;
   font-weight: bold;
   padding: 18px 34px;
   margin-left: -5px;
-  border: 1px solid rgba(14, 14, 14, 0.3);
+  border: none;
   border-radius: 0px 8px 8px 0px;
-
 }
-.commitment{
+.commitment {
   text-align: center;
-  font-size:16px; 
+  font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
 }
 
 /*footer style*/
-.footer-section{
- width:100% ; 
- 
+.footer-section {
+  width: 100%;
 }
-.hr{
+.hr {
   width: 50%;
   border: none;
-  height: 1px;
-  background-color:#F7EBCF ;
-  margin-bottom:30px;
+  height: 0.5px;
+  background-color: #f7ebcf;
+  margin-bottom: 30px;
 }
-.footer-title{
+.footer-title {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-
 }
-.footer-contact{
+.footer-contact {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 23px;
 }
-body>.bg-height {
-  background-color:#F5F5F5 ;
+body > .bg-height {
+  background-color: #f5f5f5;
   height: 4500px;
-
 }
-footer{
+footer {
   height: 200px;
 }
